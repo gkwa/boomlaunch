@@ -1,3 +1,3 @@
-FROM golang
+FROM nginx:alpine
 
-RUN apt-get update; apt-get -y install git
+COPY index.html /usr/share/nginx/html/index.html
