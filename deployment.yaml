@@ -17,3 +17,4 @@ spec:
       containers:
       - image: local/example
         name: example
+        imagePullPolicy: Never
